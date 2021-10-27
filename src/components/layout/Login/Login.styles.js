@@ -27,6 +27,11 @@ export const LoginCta = styled.p`
 `;
 
 export const LoginForm = styled.form`
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 325px;
   width: 100%;
   height: 551px;
   border: 1px solid #e4e3e6;
