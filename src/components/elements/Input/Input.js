@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 //IMPORT STYLE
 import { InputStyle } from "./Input.styles";
 
-const Input = ({ placeholder, type }) => {
-  console.log(type);
-  return <InputStyle placeholder={placeholder} type={type} />;
+const Input = ({ placeholder, type, icon }) => {
+  return <InputStyle placeholder={placeholder} type={type} icon={icon} />;
 };
 
 Input.propTypes = {
@@ -19,7 +18,13 @@ Input.defaultProps = {
 };
 Input.defaultProps = {
   placeholder: "Im a placeholder",
-  type: "email"
+  type: "email",
+  icon: "laptop"
+};
+Input.defaultProps = {
+  placeholder: "Im a placeholder",
+  type: "email",
+  icon: "mail_outline"
 };
 
 export default Input;

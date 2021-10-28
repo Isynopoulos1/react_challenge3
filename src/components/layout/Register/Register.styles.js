@@ -7,6 +7,7 @@ export const RegisterMain = styled.main`
   display: flex;
   justify-content: center;
   padding-top: 72px;
+  padding-bottom: 72px;
   background-color: #fafafe;
 `;
 
@@ -25,7 +26,7 @@ export const RegisterCta = styled.p`
   font-size: 16px;
   margin-bottom: 25px;
 `;
-
+//FORM SECTION
 export const RegisterForm = styled.form`
   display: flex;
   flex-direction: column;
@@ -34,7 +35,7 @@ export const RegisterForm = styled.form`
   padding: 25px;
   max-width: 325px;
   width: 100%;
-  height: 551px;
+  height: 500px;
   border: 1px solid #e4e3e6;
   border-radius: 4px;
   background-color: white;
@@ -42,6 +43,13 @@ export const RegisterForm = styled.form`
 
 export const InputWrapper = styled.div`
   display: flex;
+  margin-bottom: 15px;
+`;
+export const EmailSection = styled.div`
+  margin-bottom: 15px;
+`;
+export const PasswordSection = styled.div`
+  margin-bottom: 15px;
 `;
 export const PhoneField = styled.div`
   display: flex;
@@ -52,6 +60,10 @@ export const PhoneField = styled.div`
   border: 1px solid #e4e3e6;
   border-radius: 4px;
   height: 44px;
+  margin-bottom: 15px;
+`;
+export const Country = styled.div`
+  margin-bottom: 15px;
 `;
 export const CountrySelector = styled.img`
   display: flex;
@@ -65,6 +77,7 @@ export const InviteCta = styled.p`
   font-family: helvetica;
   font-size: 14px;
   color: #616a8f;
+  margin-bottom: 10px;
 `;
 export const Option = styled.div`
   margin-left: 3px;
@@ -74,4 +87,8 @@ export const LoginLink = styled.a`
   margin-left: 3px;
   color: #6f36ff;
   text-decoration: none;
+  margin-bottom: 10px;
+`;
+export const GiftCode = styled.div`
+  margin-bottom: 15px;
 `;
