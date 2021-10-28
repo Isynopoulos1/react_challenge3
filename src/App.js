@@ -1,8 +1,7 @@
 import React from "react";
 
 //IMPORT COMPONENTS
-import Login from "./components//layout/Login/Login";
-import Footer from "./components//layout/Footer/Footer";
+import Register from "./components//layout/Register/Register";
 
 //IMPORT STYLES
 import "./styles/reset.css";
@@ -10,8 +9,7 @@ import "./styles/reset.css";
 const App = () => {
   return (
     <>
-      <Login />
-      <Footer />
+      <Register />
     </>
   );
 };
