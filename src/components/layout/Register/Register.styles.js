@@ -43,3 +43,35 @@ export const RegisterForm = styled.form`
 export const InputWrapper = styled.div`
   display: flex;
 `;
+export const PhoneField = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fafafe;
+  border: 1px solid #e4e3e6;
+  border-radius: 4px;
+  height: 44px;
+`;
+export const CountrySelector = styled.img`
+  display: flex;
+  width: 20px;
+  padding: 15px;
+`;
+
+export const InviteCta = styled.p`
+  display: flex;
+  text-align: left;
+  font-family: helvetica;
+  font-size: 14px;
+  color: #616a8f;
+`;
+export const Option = styled.div`
+  margin-left: 3px;
+  color: #979fbd;
+`;
+export const LoginLink = styled.a`
+  margin-left: 3px;
+  color: #6f36ff;
+  text-decoration: none;
+`;

@@ -17,5 +17,9 @@ Input.defaultProps = {
   placeholder: "Im a placeholder",
   type: "text"
 };
+Input.defaultProps = {
+  placeholder: "Im a placeholder",
+  type: "email"
+};
 
 export default Input;
