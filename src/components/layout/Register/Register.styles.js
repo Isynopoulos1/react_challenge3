@@ -54,7 +54,7 @@ export const PasswordSection = styled.div`
 export const PhoneField = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   background-color: #fafafe;
   border: 1px solid #e4e3e6;

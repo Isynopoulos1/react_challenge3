@@ -2,29 +2,26 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //IMPORT STYLE
-import { InputStyle } from "./Input.styles";
+import { InputWrapper, InputStyle, IconStyle } from "./Input.styles";
 
 const Input = ({ placeholder, type, icon }) => {
-  return <InputStyle placeholder={placeholder} type={type} icon={icon} />;
+  return (
+    <InputWrapper>
+      <IconStyle>{icon}</IconStyle>
+      <InputStyle placeholder={placeholder} type={type} />
+    </InputWrapper>
+  );
 };
 
 Input.propTypes = {
   placeholder: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
+  icon: PropTypes.string
 };
 Input.defaultProps = {
   placeholder: "Im a placeholder",
-  type: "text"
-};
-Input.defaultProps = {
-  placeholder: "Im a placeholder",
-  type: "email",
-  icon: "laptop"
-};
-Input.defaultProps = {
-  placeholder: "Im a placeholder",
-  type: "email",
-  icon: "mail_outline"
+  type: "text",
+  icon: ""
 };
 
 export default Input;

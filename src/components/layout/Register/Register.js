@@ -36,7 +36,6 @@ const Register = () => {
             <Input placeholder="Apellido" />
           </InputWrapper>
           <EmailSection>
-            <span className="material-icons">mail_outline</span>
             <Input placeholder="Email" type="email" icon="email" />
           </EmailSection>
           <PasswordSection>
