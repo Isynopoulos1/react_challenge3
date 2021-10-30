@@ -10,18 +10,17 @@ import {
   EmailSection,
   PasswordSection,
   Country,
-  CountrySelector,
-  PhoneField,
   InviteCta,
   GiftCode,
   Option,
-  LoginLink,
-  Telephone
+  LoginLink
 } from "./Register.styles";
+
 //IMPORT COMPONENTS
 import Logo from "../../elements/Logo/Logo";
 import Input from "../../elements/Input/Input";
 import Button from "../../elements/Button/Button";
+import Phone from "../../elements/Phone/Phone";
 
 const Register = () => {
   return (
@@ -42,15 +41,7 @@ const Register = () => {
           <PasswordSection>
             <Input placeholder="Contraseña" type="password" icon="lock" />
           </PasswordSection>
-          <PhoneField>
-            <CountrySelector
-              src="https://ik.imagekit.io/ppayaz/ppayaz-website/flag_fQzludPB8.png?updatedAt=1634221524609"
-              alt="flag"
-            />
-            <Telephone>
-              <Input placeholder="Número de celular" type="tel" />
-            </Telephone>
-          </PhoneField>
+          <Phone />
           <Country>
             <Input placeholder="Ciudad" type="country" />
           </Country>

@@ -18,6 +18,7 @@ Input.propTypes = {
   type: PropTypes.string,
   icon: PropTypes.string
 };
+
 Input.defaultProps = {
   placeholder: "Im a placeholder",
   type: "text",
