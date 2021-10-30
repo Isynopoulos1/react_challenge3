@@ -56,11 +56,12 @@ export const PhoneField = styled.div`
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  background-color: #fafafe;
   border: 1px solid #e4e3e6;
+  border-right: none;
   border-radius: 4px;
   height: 44px;
   margin-bottom: 15px;
+  background-color: #fafafe;
 `;
 export const Country = styled.div`
   margin-bottom: 15px;
@@ -69,6 +70,11 @@ export const CountrySelector = styled.img`
   display: flex;
   width: 20px;
   padding: 15px;
+`;
+export const Telephone = styled.div`
+  background-color: white;
+  width: 100%;
+  border: none;
 `;
 
 export const InviteCta = styled.p`

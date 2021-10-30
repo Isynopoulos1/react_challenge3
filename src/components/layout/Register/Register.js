@@ -15,7 +15,8 @@ import {
   InviteCta,
   GiftCode,
   Option,
-  LoginLink
+  LoginLink,
+  Telephone
 } from "./Register.styles";
 //IMPORT COMPONENTS
 import Logo from "../../elements/Logo/Logo";
@@ -46,12 +47,13 @@ const Register = () => {
               src="https://ik.imagekit.io/ppayaz/ppayaz-website/flag_fQzludPB8.png?updatedAt=1634221524609"
               alt="flag"
             />
-            <Input placeholder="Número de celular" type="tel" />
+            <Telephone>
+              <Input placeholder="Número de celular" type="tel" />
+            </Telephone>
           </PhoneField>
           <Country>
             <Input placeholder="Ciudad" type="country" />
           </Country>
-
           <InviteCta>
             ¿Tienes un código de invitación?
             <Option>(Optional)</Option>
