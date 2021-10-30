@@ -24,5 +24,5 @@ export const InputStyle = styled.input`
 
 export const IconStyle = styled.span`
   font-family: "Material Icons";
-  font-size: 12px;
+  font-size: 20px;
 `;

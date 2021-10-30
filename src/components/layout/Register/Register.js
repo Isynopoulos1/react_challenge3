@@ -32,14 +32,14 @@ const Register = () => {
         </RegisterCta>
         <RegisterForm>
           <InputWrapper>
-            <Input placeholder="Nombre" />
+            <Input placeholder="Nombre" type="text" icon="person" />
             <Input placeholder="Apellido" />
           </InputWrapper>
           <EmailSection>
-            <Input placeholder="Email" type="email" icon="email" />
+            <Input placeholder="Email" type="email" icon="mail_outline" />
           </EmailSection>
           <PasswordSection>
-            <Input placeholder="Contraseña" type="password" />
+            <Input placeholder="Contraseña" type="password" icon="lock" />
           </PasswordSection>
           <PhoneField>
             <CountrySelector
@@ -57,7 +57,7 @@ const Register = () => {
             <Option>(Optional)</Option>
           </InviteCta>
           <GiftCode>
-            <Input placeholder="Escribe el código" type="text" />
+            <Input placeholder="Escribe el código" type="text" icon="people" />
           </GiftCode>
           <InviteCta>
             Al continuar, aceptas nuestra
