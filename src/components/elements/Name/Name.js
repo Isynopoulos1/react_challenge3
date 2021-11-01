@@ -2,7 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //IMPORT STYLE
-import { NameField, NameWrapper, InputName, LastName } from "./Name.styles";
+import {
+  NameField,
+  NameWrapper,
+  InputName,
+  LastName,
+  InputLast
+} from "./Name.styles";
 
 //IMPORT COMPONENTS
 import Input from "../Input/Input";
@@ -14,7 +20,7 @@ const Name = ({ placeholder, type }) => {
         <InputName placeholder="Nombre" type={type} />
       </NameWrapper>
       <LastName>
-        <InputName placeholder="Apellido" type={type} />
+        <InputLast placeholder="Apellido" type={type} />
       </LastName>
     </NameField>
   );
