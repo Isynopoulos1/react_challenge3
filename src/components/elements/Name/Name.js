@@ -7,13 +7,15 @@ import {
   NameWrapper,
   InputName,
   LastName,
-  InputLast
+  InputLast,
+  IconStyle
 } from "./Name.styles";
 
 const Name = ({ type, icon }) => {
   return (
     <NameField>
       <NameWrapper>
+        <IconStyle>{icon}</IconStyle>
         <InputName placeholder="Nombre" type={type} />
       </NameWrapper>
       <LastName>
@@ -32,7 +34,7 @@ Name.propTypes = {
 Name.defaultProps = {
   placeholder: "Im a placeholder",
   type: "text",
-  icon: "people"
+  icon: "person"
 };
 
 export default Name;

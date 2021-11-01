@@ -31,7 +31,7 @@ const Register = () => {
           Regístrate para obtener una cuenta de conductor
         </RegisterCta>
         <RegisterForm>
-          <Name type="text" icon="people" />
+          <Name type="text" icon="person" />
           <EmailSection>
             <Input placeholder="Email" type="email" icon="mail_outline" />
           </EmailSection>
