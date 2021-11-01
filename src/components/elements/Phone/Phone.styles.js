@@ -32,7 +32,7 @@ export const InputPhone = styled.input`
   border: none;
   width: 100%;
   height: 44px;
-  border-left: 1px solid #aaa;
+  border-left: 1px solid#e4e3e6;
   font-family: helvetica;
   font-weight: lighter;
   font-size: 14px;
