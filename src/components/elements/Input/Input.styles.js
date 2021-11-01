@@ -11,7 +11,6 @@ export const InputWrapper = styled.div`
 `;
 
 export const InputStyle = styled.input`
-  width: 100%;
   height: 44px;
   border: none;
   font-size: 14px;

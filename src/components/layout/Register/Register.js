@@ -6,7 +6,6 @@ import {
   RegisterWrapper,
   RegisterCta,
   RegisterForm,
-  InputWrapper,
   EmailSection,
   PasswordSection,
   Country,
@@ -21,6 +20,7 @@ import Logo from "../../elements/Logo/Logo";
 import Input from "../../elements/Input/Input";
 import Button from "../../elements/Button/Button";
 import Phone from "../../elements/Phone/Phone";
+import Name from "../../elements/Name/Name";
 
 const Register = () => {
   return (
@@ -31,10 +31,7 @@ const Register = () => {
           Regístrate para obtener una cuenta de conductor
         </RegisterCta>
         <RegisterForm>
-          <InputWrapper>
-            <Input placeholder="Nombre" type="text" icon="person" />
-            <Input placeholder="Apellido" />
-          </InputWrapper>
+          <Name />
           <EmailSection>
             <Input placeholder="Email" type="email" icon="mail_outline" />
           </EmailSection>
