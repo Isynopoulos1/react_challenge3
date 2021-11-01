@@ -10,10 +10,7 @@ import {
   InputLast
 } from "./Name.styles";
 
-//IMPORT COMPONENTS
-import Input from "../Input/Input";
-
-const Name = ({ placeholder, type }) => {
+const Name = ({ type, icon }) => {
   return (
     <NameField>
       <NameWrapper>
@@ -25,13 +22,17 @@ const Name = ({ placeholder, type }) => {
     </NameField>
   );
 };
-Input.propTypes = {
+
+Name.propTypes = {
   placeholder: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
+  icon: PropTypes.string
 };
 
-Input.defaultProps = {
+Name.defaultProps = {
   placeholder: "Im a placeholder",
-  type: "text"
+  type: "text",
+  icon: "people"
 };
+
 export default Name;

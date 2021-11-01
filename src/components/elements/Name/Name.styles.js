@@ -5,6 +5,18 @@ export const NameField = styled.div`
   height: 44px;
   margin-bottom: 15px;
 `;
+
+export const NameWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  height: 44px;
+  border: 1px solid #e4e3e6;
+  border-radius: 4px 0px 0px 4px;
+  &:focus-within {
+    border: 1px solid #6f36ff;
+  }
+`;
+
 export const InputName = styled.input`
   border: none;
   border-radius: 4px 0px 0px 4px;
@@ -17,16 +29,22 @@ export const InputName = styled.input`
   }
   padding-left: 10px;
 `;
-export const NameWrapper = styled.div`
+
+export const UserIcon = styled.img`
+  width: 10px;
+`;
+
+export const LastName = styled.div`
   display: flex;
   width: 100%;
   height: 44px;
   border: 1px solid #e4e3e6;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 0px 4px 4px 0px;
   &:focus-within {
     border: 1px solid #6f36ff;
   }
 `;
+
 export const InputLast = styled.input`
   border: none;
   border-radius: 0px 4px 4px 0px;
@@ -38,14 +56,4 @@ export const InputLast = styled.input`
     outline: none;
   }
   padding-left: 10px;
-`;
-export const LastName = styled.div`
-  display: flex;
-  width: 100%;
-  height: 44px;
-  border: 1px solid #e4e3e6;
-  border-radius: 0px 4px 4px 0px;
-  &:focus-within {
-    border: 1px solid #6f36ff;
-  }
 `;

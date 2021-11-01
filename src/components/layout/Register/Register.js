@@ -31,7 +31,7 @@ const Register = () => {
           Regístrate para obtener una cuenta de conductor
         </RegisterCta>
         <RegisterForm>
-          <Name />
+          <Name type="text" icon="people" />
           <EmailSection>
             <Input placeholder="Email" type="email" icon="mail_outline" />
           </EmailSection>
@@ -44,7 +44,7 @@ const Register = () => {
           </Country>
           <InviteCta>
             ¿Tienes un código de invitación?
-            <Option>(Optional)</Option>
+            <Option>(Opcional)</Option>
           </InviteCta>
           <GiftCode>
             <Input placeholder="Escribe el código" type="text" icon="people" />

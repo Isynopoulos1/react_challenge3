@@ -59,7 +59,7 @@ export const Country = styled.div`
   margin-bottom: 15px;
 `;
 
-export const InviteCta = styled.p`
+export const InviteCta = styled.div`
   display: flex;
   text-align: left;
   font-family: helvetica;
