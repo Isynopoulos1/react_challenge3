@@ -50,27 +50,6 @@ export const Country = styled.div`
   margin-bottom: 15px;
 `;
 
-export const InviteCta = styled.div`
-  display: flex;
-  text-align: left;
-  font-family: helvetica;
-  font-size: 14px;
-  color: #616a8f;
-  margin-bottom: 10px;
-`;
-
-export const Option = styled.div`
-  margin-left: 3px;
-  color: #979fbd;
-`;
-
-export const LoginLink = styled.a`
-  margin-left: 3px;
-  color: #6f36ff;
-  text-decoration: none;
-  margin-bottom: 10px;
-`;
-
 export const GiftCode = styled.div`
   margin-bottom: 15px;
 `;

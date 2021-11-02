@@ -8,10 +8,7 @@ import {
   EmailSection,
   PasswordSection,
   Country,
-  InviteCta,
-  GiftCode,
-  Option,
-  LoginLink
+  GiftCode
 } from "./Register.styles";
 
 //IMPORT COMPONENTS
@@ -21,6 +18,8 @@ import Button from "../../elements/Button/Button";
 import Phone from "../../elements/Phone/Phone";
 import Name from "../../elements/Name/Name";
 import Intro from "../../elements/Intro/Intro";
+import InviteCode from "../../elements/InviteCode/InviteCode";
+import Privacy from "../../elements/Privacy/Privacy";
 
 const Register = () => {
   return (
@@ -40,19 +39,11 @@ const Register = () => {
           <Country>
             <Input placeholder="Ciudad" type="country" />
           </Country>
-          <InviteCta>
-            ¿Tienes un código de invitación?
-            <Option>(Opcional)</Option>
-          </InviteCta>
+          <InviteCode />
           <GiftCode>
             <Input placeholder="Escribe el código" type="text" icon="people" />
           </GiftCode>
-          <InviteCta>
-            Al continuar, aceptas nuestra
-            <LoginLink href="https://www.paypal.com/authflow/password-recovery/?country.x=ES&locale.x=es_ES&redirectUri=%252Fsignin%252F">
-              Política de privacidad
-            </LoginLink>
-          </InviteCta>
+          <Privacy />
           <Button label="Registrarse" />
         </RegisterForm>
       </RegisterWrapper>
