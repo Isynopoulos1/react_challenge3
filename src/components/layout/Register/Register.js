@@ -4,7 +4,6 @@ import React from "react";
 import {
   RegisterMain,
   RegisterWrapper,
-  RegisterCta,
   RegisterForm,
   EmailSection,
   PasswordSection,
@@ -21,15 +20,14 @@ import Input from "../../elements/Input/Input";
 import Button from "../../elements/Button/Button";
 import Phone from "../../elements/Phone/Phone";
 import Name from "../../elements/Name/Name";
+import Intro from "../../elements/Intro/Intro";
 
 const Register = () => {
   return (
     <RegisterMain>
       <RegisterWrapper>
         <Logo />
-        <RegisterCta>
-          Regístrate para obtener una cuenta de conductor
-        </RegisterCta>
+        <Intro />
         <RegisterForm>
           <Name type="text" icon="person" />
           <EmailSection>
